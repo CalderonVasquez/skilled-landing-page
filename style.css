@@ -67,6 +67,7 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
+    padding: 0;
  }
  .dark-btn {
     background-color: #13183f;
@@ -84,4 +85,30 @@ p, h1, h2, h3, h4, h5, h6 {
  }
  .dark-btn:hover {
     background-color: #666ca3;
+ }
+ /*  ---------------- media query -------------------- */
+ @media (max-width: 768px) {
+    .top-nav img {
+        width: 4.987rem;
+        height: 1.25rem;
+    }
+    .dark-btn {
+        padding: 0.656rem 1.5rem;
+    }
+ }
+ @media (max-width: 375px) {
+     .dark-btn {
+    background-color: #13183f;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.75rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.25 ease-in-out;
+ }
  }
