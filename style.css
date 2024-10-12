@@ -9,6 +9,7 @@
 
 body {
   min-height: 100vh;
+  max-width: 1440px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
    font-family: "Plus Jakarta Sans", sans-serif;
@@ -58,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -82,7 +83,7 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0px;
     font-weight: bold;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.25 ease-in-out;
+    transition: 0.25s ease-in-out;
  }
  .dark-btn:hover {
     background-color: #666ca3;
@@ -99,26 +100,39 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 3.5rem;
     line-height: 120%;
     letter-spacing: 0px;
+    width: 70%;
 }
 .hero-text p {
     font-size: 1.125rem;
-    font-weight: 200;
+    font-weight: 500;
+    text-align: left;
     line-height: 150%;
+    width: 63%;
     letter-spacing: 0px;
+    margin-top: 1.5rem;
+    color: #83869a;
 }
 .hero-btn {
-    background-color: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
     color: white;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 1.75rem;
+    border-radius: 1.938rem;
     cursor: pointer;
     font-size: 1.125rem;
     line-height: 150%;
     letter-spacing: 0px;
     font-weight: bold;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.25 ease-in-out;
+    transition: opacity .2s ease-in-out;
+    margin-top: 2.5rem;
+}
+.hero-btn:hover {
+    opacity: .5;
+}
+.hero-desktop-img {
+    margin-right: -26rem;
+    margin-top: -11rem;
 }
 
 
