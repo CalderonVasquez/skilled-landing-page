@@ -145,20 +145,28 @@ p, h1, h2, h3, h4, h5, h6 {
 
  /*  ---------------- media query -------------------- */
  @media (max-width: 1300px) {
-  .hero-desktop-img {
-      display: none;
+  /* .hero-content-container {
+    margin: 4rem 2.75rem;
+  } */
+  
+  .hero-text h1 {
+      width: 70%;
     }
-  .hero-tablet-img {
-      display: block;
+  .hero-text p {
+      width: 46%;
+    }
+ }
+ @media (max-width: 1160px) {
+  .hero-desktop-img {
       margin-right: -19rem;
       margin-top: -6rem;
     }
-  .hero-text h1 {
-      width: 60%;
-    }
-  .hero-text p {
-      width: 38%;
-    }
+
+    /* .hero-tablet-img {
+      display: block;
+      margin-right: -17rem;
+      margin-top: -6rem;
+    } */
  }
  @media (max-width: 768px) {
     .top-nav img {
