@@ -145,9 +145,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
  /*  ---------------- media query -------------------- */
  @media (max-width: 1300px) {
-  /* .hero-content-container {
-    margin: 4rem 2.75rem;
-  } */
   
   .hero-text h1 {
       width: 70%;
@@ -162,13 +159,12 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-top: -6rem;
     }
 
-    /* .hero-tablet-img {
-      display: block;
-      margin-right: -17rem;
-      margin-top: -6rem;
-    } */
+    
  }
  @media (max-width: 768px) {
+    .top-nav {
+      margin: 1.5rem 2.75rem;
+    }
     .top-nav img {
         width: 4.987rem;
         height: 1.25rem;
@@ -176,6 +172,28 @@ p, h1, h2, h3, h4, h5, h6 {
     .dark-btn {
         padding: 0.656rem 1.5rem;
     }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      width: 91%;
+    }
+    .hero-text p {
+      width: 84%;
+    }
+    .hero-desktop-img {
+      display: none;
+    }
+    .hero-tablet-img {
+      display: block;
+      margin-right: -18rem;
+      margin-top: -11rem;
+      width: 90rem;
+    }
+    .hero-content-container {
+       margin: 4rem 2.75rem;
+   } 
+   .hero-btn {
+    padding: .656rem 1.5rem;
+   }
  }
  @media (max-width: 375px) {
     .dark-btn {
