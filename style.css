@@ -221,9 +221,6 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-text p {
       width: 78%;
     }
-    .hero-btn {
-    padding: .656rem 1.5rem;
-   }
  }
  @media (max-width: 820px) {
     .top-nav {
@@ -248,9 +245,6 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-text p {
       width: 78%;
     }
-    .hero-btn {
-    padding: .656rem 1.5rem;
-   }
  }
  @media (max-width: 768px) {
     .top-nav {
@@ -282,9 +276,6 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-content-container {
        margin: 4rem 2.75rem;
    } 
-   .hero-btn {
-    padding: .656rem 1.5rem;
-   }
  }
  @media (max-width: 375px) {
     .top-nav {
@@ -311,6 +302,13 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-text h1 {
       width: 100%;
     }
+    .hero-text p {
+      width: 97%;
+    }
+    .hero-btn {
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+   }
     .hero-tablet-img {
       display: none;
     }
