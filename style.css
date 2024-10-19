@@ -171,8 +171,17 @@ p, h1, h2, h3, h4, h5, h6 {
   .hero-desktop-img {
       margin-right: -19rem;
       margin-top: -6rem;
+    }   
+ }
+ @media (max-width: 1080px) {
+    .hero-text h1 {
+      font-size: 3.5rem;
+      width: 100%;
     }
-    
+    .hero-text p {
+      width: 80%;
+      text-align: left;
+    }
  }
  @media (max-width: 1024px) {
     .top-nav {
@@ -207,7 +216,7 @@ p, h1, h2, h3, h4, h5, h6 {
  }
  @media (max-width: 932px) {
     .hero-text h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       width: 100%;
     }
  }
