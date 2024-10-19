@@ -205,6 +205,12 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: .656rem 1.5rem;
    }
  }
+ @media (max-width: 932px) {
+    .hero-text h1 {
+      font-size: 3.5rem;
+      width: 100%;
+    }
+ }
   @media (max-width: 834px) {
     .top-nav {
       margin: 1.5rem 2.75rem;
