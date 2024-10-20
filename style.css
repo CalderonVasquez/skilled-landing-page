@@ -148,6 +148,56 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-top: 4rem;
   margin-bottom: 9rem;
 }
+.courses-content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 3.5rem 1.5rem;
+}
+#gradient-card {
+  background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+.course-card {
+  width: 352px;
+  height: 322px;
+  background-color: #FFF;
+  border-radius: .938rem;
+  position: relative;
+}
+.course-card h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 4rem 2rem 9rem 2rem;
+}
+.course-card-icon {
+  margin-left: 1.5rem;
+  margin-top: -1.5rem;
+}
+.course-card-text {
+  padding: 2rem 2rem 0 2rem;
+}
+.course-card h3 {
+  padding-bottom: 1.5rem;
+  line-height: 120%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #13183f;
+}
+.course-card p {
+  font-size: 1.125rem;
+  color: #83869a;
+  padding-bottom: 1.5rem;
+}
+.course-card-link {
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  color: #f74780;
+}
+
 
 
 
