@@ -135,14 +135,19 @@ p, h1, h2, h3, h4, h5, h6 {
 .hero-desktop-img {
     margin-right: -23rem;
     margin-top: -8rem;
-
 }
 .hero-tablet-img {
   display: none;
 }
 .hero-mobile-img {
       display: none;
-    }
+}
+
+ /*  ---------------- popular-courses -------------------- */
+#popular-courses {
+  margin-top: 4rem;
+  margin-bottom: 9rem;
+}
 
 
 
@@ -161,12 +166,6 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-top: -9rem;
     }
  }
- /* @media (max-width: 1200px) {
-    .hero-desktop-img {
-      margin-right: -20rem;
-      margin-top: -9rem;
-    }
- } */
  @media (max-width: 1160px) {
   .hero-desktop-img {
       margin-right: -19rem;
