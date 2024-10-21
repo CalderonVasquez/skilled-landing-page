@@ -188,6 +188,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 1.125rem;
   color: #83869a;
   padding-bottom: 1.5rem;
+  text-align: left;
 }
 .course-card-link {
   font-weight: 700;
@@ -197,6 +198,9 @@ p, h1, h2, h3, h4, h5, h6 {
   bottom: 10%;
   color: #f74780;
 }
+
+ /*  ---------------- Footer -------------------- */
+
 
 
 
@@ -260,8 +264,9 @@ p, h1, h2, h3, h4, h5, h6 {
       text-align: left;
     }
     .hero-btn {
-    padding: .656rem 1.5rem;
+      padding: .656rem 1.5rem;
    }
+   
  }
  @media (max-width: 932px) {
     .hero-text h1 {
@@ -356,6 +361,25 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-content-container {
        margin: 4rem 2.75rem;
    } 
+   .courses-content-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem 1.5rem;
+    }
+    .course-card {
+      width: 328px;
+      height: 322px;
+    }
+    .course-card h2 {
+      font-size: 1.5rem;
+    }
+    .course-card h3 {
+      font-size: 1.125rem;
+    }
+    .course-card p {
+      font-size: 1.125rem;
+      line-height: 150%;
+      padding-bottom: 0;
+    }
  }
  @media (max-width: 428px) {
     .top-nav {
