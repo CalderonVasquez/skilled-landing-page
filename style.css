@@ -196,7 +196,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 1.125rem;
   cursor: pointer;
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   color: #f74780;
 }
 
@@ -430,6 +430,34 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-mobile-img {
       display: block;
     }
+    .courses-content-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2.75rem;
+    }
+    #gradient-card {
+      width: 335px;
+      height: 122px;
+    }
+    .course-card {
+      width: 335px;
+      height: 300px;
+    }
+    .course-card h2 {
+      font-size: 1.5rem;
+      padding: 2rem;
+    }
+    .course-card h3 {
+      font-size: 1.125rem;
+    }
+    .course-card p {
+      font-size: 1rem;
+      line-height: 150%;
+      letter-spacing: 0px;
+      font-weight: bold;
+    }
+    .course-card-link {
+      font-weight: bold;
+    }
  }
  @media (max-width: 375px) {
     .top-nav {
@@ -471,4 +499,11 @@ p, h1, h2, h3, h4, h5, h6 {
     .hero-text h1 {
       width: 101%;
     }
+    #gradient-card {
+      width: 315px;
+      height: 122px;
+    }
+    .course-card {
+      width: 315px;
+    } 
  }
