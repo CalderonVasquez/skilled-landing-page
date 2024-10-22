@@ -12,7 +12,6 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
@@ -26,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/image/SS-%20Skilled%20e-learning%20landing%20page.png)
+![Skilled E-Learning Landing Page](/image/SS-%20Skilled%20e-learning%20landing%20page.png)
 
 ### Links
 
