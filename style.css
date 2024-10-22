@@ -201,7 +201,32 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
  /*  ---------------- Footer -------------------- */
-
+footer {
+  background: #13183f;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.footer-btn {
+  background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1.938rem;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: opacity .2s ease-in-out;
+}
+.footer-btn:hover {
+    background: #ffa7c3;
+}
 
 
 
