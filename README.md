@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Skilled E-Learning Landing Page](/image/SS-%20Skilled%20e-learning%20landing%20page.png)
+![Skilled E-Learning Landing Page](/image/Screen%20Shot%202024-10-21%20at%2021.49.20.png)
 
 ### Links
 
