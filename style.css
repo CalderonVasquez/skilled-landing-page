@@ -355,6 +355,12 @@ footer {
       line-height: 150%;
       padding-bottom: 0;
     }
+    .footer-logo {
+      width: 4.956rem;
+    }
+    .footer-btn {
+      padding: .656rem 1.5rem;
+    }
  }
  @media (max-width: 820px) {
     .top-nav {
@@ -482,6 +488,12 @@ footer {
     }
     .course-card-link {
       font-weight: bold;
+    }
+    .footer-logo {
+      width: 4.956rem;
+    }
+    .footer-btn {
+      padding: .656rem 1.5rem;
     }
  }
  @media (max-width: 375px) {
